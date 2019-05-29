@@ -9,8 +9,8 @@ adc0=ADC(Pin(35))
 SERVER = "mqtt.thingspeak.com"
 client = MQTTClient("umqtt_client", SERVER)
 
-CHANNEL_ID = "780987"
-WRITE_API_KEY = "IO4INWIR5PFI3KNR"
+CHANNEL_ID = "ID_DO_CANAL"
+WRITE_API_KEY = "CHAVE_WRITE_DO_CANAL"
 
 topic = "channels/" + CHANNEL_ID + "/publish/" + WRITE_API_KEY
 
