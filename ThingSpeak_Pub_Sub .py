@@ -16,8 +16,8 @@ randomNum = int.from_bytes(os.urandom(3), 'little')
 myMqttClient = bytes("client"+str(randomNum), 'utf-8')
 
 THINGSPEAK_URL = b"mqtt.thingspeak.com" 
-THINGSPEAK_USER_ID = b'780987'
-THINGSPEAK_MQTT_API_KEY = b'E4233MZVKTX3ZZVY'
+THINGSPEAK_USER_ID = b'ID_DO_CANAL'
+THINGSPEAK_MQTT_API_KEY = b'CHAVE_API_MQTT'
 client = MQTTClient(client_id=myMqttClient, 
                     server=THINGSPEAK_URL, 
                     user=THINGSPEAK_USER_ID, 
@@ -31,8 +31,8 @@ except Exception as e:
     print('could not connect to MQTT server {}{}'.format(type(e).__name__, e))
     sys.exit()
 
-THINGSPEAK_CHANNEL_ID = b'780987'
-THINGSPEAK_CHANNEL_WRITE_API_KEY = b'IO4INWIR5PFI3KNR'
+THINGSPEAK_CHANNEL_ID = b'ID_DO_CANAL'
+THINGSPEAK_CHANNEL_WRITE_API_KEY = b'CHABE_WRITE_DO_CANAL'
 
 PUBLISH_PERIOD_IN_SEC = 30 
 
