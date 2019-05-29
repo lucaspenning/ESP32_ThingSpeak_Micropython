@@ -14,9 +14,6 @@ WRITE_API_KEY = "CHAVE_WRITE_DO_CANAL"
 
 topic = "channels/" + CHANNEL_ID + "/publish/" + WRITE_API_KEY
 
-temp = 0
-valorPublicado = 0
-
 while True:
     temp = adc0.read()/50 
     payload = "field1="+str(temp)
