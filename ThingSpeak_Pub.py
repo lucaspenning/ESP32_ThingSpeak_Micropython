@@ -11,13 +11,10 @@ sensor = dht.DHT11(Pin(14))
 SERVER = "mqtt.thingspeak.com"
 client = MQTTClient("umqtt_client", SERVER)
 
-CHANNEL_ID = "780987"
-WRITE_API_KEY = "IO4INWIR5PFI3KNR"
+CHANNEL_ID = "ID_DO_CANAL"
+WRITE_API_KEY = "WRITE_API_KEY"
 
 topic = "channels/" + CHANNEL_ID + "/publish/" + WRITE_API_KEY
-
-temp = 0
-valorPublicado = 0
 
 while True:
     sensor.measure()
