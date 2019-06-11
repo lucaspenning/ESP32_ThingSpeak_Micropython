@@ -9,7 +9,7 @@ Ambiente de Desenvolvimento: uPyCraft
 
 Plataforma de Nuvem na IoT utilizada: ThingSpeak
 
-Tutoriais utilizados:
+Tutorial utilizado:
   >https://mjrobot.org/2018/06/13/iot-feito-facil-esp-micropython-mqtt-thingspeak/
 
 Resumo das Funcionalidades:
