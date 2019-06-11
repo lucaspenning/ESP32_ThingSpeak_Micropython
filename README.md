@@ -23,5 +23,6 @@ Funcionalidades na Plataforma de Nuvem na IoT:
 
 Comentários sobre os Códigos:
   * Foram utilizadas as bibliotecas: DHT, umqtt.simple, WIFI e Machine.
-  * Devem ser alteradas as variáveis CHANNEL_ID (ID do canal) e WRITE_API_KEY (Chave de escrita do canal) respectivamente do seu canal ThingSpeak.
+  * No arquivo texto de código ThingSpeak_Pub.py devem ser alteradas as variáveis CHANNEL_ID (ID do canal) e WRITE_API_KEY (Chave de escrita do canal) respectivamente do seu canal ThingSpeak.
+  * No arquivo texto de código Wifi.py devem ser alteradas as variáveis ssid (Nome da rede) e password (senha da rede) respectivamente da sua rede.
   * Código consiste em uma rotina onde ficará lendo os valores dos sensores e enviando para a nuvem IoT a um determinado intervalo de tempo (valor de tempo que deverá ser definido em segundos).
