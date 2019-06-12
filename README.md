@@ -21,7 +21,7 @@ Resumo das Funcionalidades:
 
 Funcionalidades no embarcado:
   >Ler os valores dos sensores (temperatura, umidade e luminosidade) do local e conectado a uma rede mandar essas informações para a plataforma de nuvem IoT ThingSpeak.
-  
+
 Funcionalidades na Plataforma de Nuvem na IoT:
   >Receber os dados do embarcado e mostrar por meio de gráficos as variações das leituras dos sensores.
   <img src="https://i0.wp.com/electronicshobbyists.com/wp-content/uploads/2018/01/ThingSpeak-output.png?resize=750%2C359&ssl=1" width="700" height="350"/>
